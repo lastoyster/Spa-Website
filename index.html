@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Spa Website</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom fixed-top">
+
+  <!-- Collapse toggler button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="hamburger-containter">
+      <span class="icon-bar bar1"></span>
+      <span class="icon-bar bar2"></span>
+      <span class="icon-bar bar3"></span>
+    </div>
+  </button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse justify-content-center " id="basicExampleNav">
+
+    <!-- Links -->
+    <div class="nav-slider">
+      <ul class="nav navbar-nav ">
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#services">Services</a>       
+          <div class="dropdown-content">
+            <a href="#">Facial Treatments</a>
+            <a href="#">Sugaring & Waxing</a>
+            <a href="#">Lashes & Brows</a>
+            <a href="#">Body Treatment</a>
+          </div>          
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#products">Products</a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"
+            target="_blank">Directions</a>
+        </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link btn-group book-nav-link" href="#book"><span>Book Now</span></a>
+        </li>
+      </ul>
+
+      <!-- Nav Social Links -->
+      <ul class="nav-icons-list">
+        <li><a href="#" target="_blank" class="nav-contact-icon">
+          <span class="nav-icon-span"><i class="fab fa-facebook-f"></i></span></a>
+        </li>
+
+        <li><a href="#" target="_blank" class="nav-contact-icon">
+          <span class="nav-icon-span"><i class="fab fa-yelp"></i></span></a>
+        </li>
+
+        <li><a href="#" target="_blank" class="nav-contact-icon">
+          <span class="nav-icon-span"><i class="fas fa-envelope"></i></span></a>
+        </li>
+
+        <li><a href="#" target="_blank" class="nav-contact-icon">
+          <span class="nav-icon-span"><i class="fas fa-mobile-alt"></i></span></a>
+        </li>
+
+      </ul>
+    </div>
+    <!-- End collapsible content -->
+
+  </div>
+
+  <!-- Nav Book Now Button -->
+  <div class="nav-book-btn-containter">
+    <button class="btn-group nav-book-btn">Book Now</button>
+  </div>
+
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="home section" data-parallax="scroll">
+  <div class="jumbotron">
+    <div class="jumbo-container">
+      <h1 class="main-title">Local Spa</h1>
+      <button class="btn-group book-now-btn">Book Now</button>
+    </div>
+    
+    <!--<div class="mouse-scroll-wrapper">
+    <div class="mouse-scroll"> 
+      <span class="mouse">
+        <span class="mouse-movement"> </span>
+      </span>
+    </div>
+    </div>-->
+</section>
+  
+<!-- Spa Images Section -->
+<section id="spa-section">
+  <div class="spa-image-container">
+    <div class="spa-image spa-image-1">
+      <span class="spa-image-header">Facial Treatments</span>
+      <div class="learn-more-btn">Learn More</div>
+    </div>
+    <div class="spa-image spa-image-2">
+      <span class="spa-image-header">Sugaring & Waxing</span>
+      <div class="learn-more-btn">Learn More</div>
+    </div>
+    <div class="spa-image spa-image-3">
+      <span class="spa-image-header">Lashes & Brows</span>
+      <div class="learn-more-btn">Learn More</div>
+    </div>
+    <div class="spa-image spa-image-4">
+      <span class="spa-image-header">Body Treatments</span>
+      <div class="learn-more-btn">Learn More</div>
+    </div>
+  </div>
+</section>
+
+<!-- Philosophy Section -->
+<section id="philosophy-section">
+  <div class="philosophy-container">
+    <h1 class="philosophy-h1">Philosophy</h1>
+    <p class="philosophy-p">You are beautiful the way you are at this moment. Happiness and warm heartedness will always be what makes you exquisitely shine from within. No matter what kind of pampering or self care you choose to devote yourself to, you still are the only beautiful
+      unique you. Come appreciate and celebrate your mind body and soul by lavishing yourself with attentive tender care and kindness. We've created a tranquil and safe place for you to relax, rejuvenate, and feel good about you!</p>
+  </div>
+</section>
+  
+<!-- Quote Section -->
+<section id="quote-section">
+  <div class="quote-container">
+    
+    <!--<h1 class="quote-title quote-title-1">&quot;Best Facial in Seattle&quot;
+      <span class="quote-title quote-source">Allure Magazine</span>
+    </h1>
+    
+    <h1 class="quote-title quote-title-2">&quot;Best Facial in Seattle&quot;
+      <span class="quote-title quote-source">Allure Magazine</span>
+    </h1>
+    
+    <h1 class="quote-title quote-title-3">&quot;Best Facial in Seattle&quot;
+      <span class="quote-title quote-source">Allure Magazine</span>
+    </h1>-->
+    
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h1 class="quote-title quote-title-1">&quot;Best Facial in town&quot;
+      <span class="quote-title quote-source">Allure Magazine</span>
+    </h1>
+            </div>
+            <div class="carousel-item">
+                <h1 class="quote-title quote-title-1">&quot;An insanely awesome facial&quot;
+      <span class="quote-title quote-source">Seattle Magazine</span>
+    </h1>
+            </div>
+            <div class="carousel-item">
+                <h1 class="quote-title quote-title-1">&quot;They are amazing&quot;
+      <span class="quote-title quote-source">Yelp Reviewer</span>
+    </h1>
+            </div>
+        </div>
+      
+        <!-- Carousel controls -->
+        <!--<a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+            <span class="carousel-control-icon carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+            <span class="carousel-control-icon carousel-control-next-icon"></span>
+        </a>-->
+
+</div>
+    
+  </div>
+</section>
+
+<!-- Footer Section -->
+<section id="footer-section">
+
+  <div class="footer-info">
+
+    <div class="footer-info-block">
+      <h1 class="address-header">Locate</h1>
+      <p class="address-p">Local Spa St.<br>Seattle, WA 98103</p>
+    </div>
+
+    <div class="footer-info-block">
+      <h1 class="address-header">Contact</h1>
+      <p class="address-p">(206) 123-4567<br>info@localspa.com</p>
+    </div>
+  </div>
+
+  <div class="contact-wrapper">
+    <ul class="contact-icons-list">
+      <li><a href="#" target="_blank" class="contact-icon">
+        <span class="icon-span"><i class="fab fa-facebook-f"></i></span></a>
+      </li>
+
+      <li><a href="#" target="_blank" class="contact-icon">
+        <span class="icon-span"><i class="fab fa-yelp"></i></span></a>
+      </li>
+
+      <li><a href="#" target="_blank" class="contact-icon">
+        <span class="icon-span"><i class="fas fa-envelope"></i></span></a>
+      </li>
+
+      <li><a href="#" target="_blank" class="contact-icon">
+        <span class="icon-span"><i class="fas fa-mobile-alt"></i></span></a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="copyright-wrapper">
+    <p class="copyright-p">&copy; Local Spa</p>
+  </div>
+
+</section>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.5/umd/popper.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
